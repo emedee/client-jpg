@@ -20,6 +20,7 @@
     }
     .mtn{
         padding-left: 30px !important;
+        padding-top: 10px !important;
     }
     .zmarg{
         margin: 0px !important;
@@ -66,12 +67,12 @@
     #hamb{
         display: flex;
         margin-left: auto !important;
-        margin-top: -33px !important;
+        margin-top: -43px !important;
         padding-right: 16px !important;
     }
     .close{
         margin-left: auto !important;
-        margin-top: -25px !important;
+        margin-top: -38px !important;
         padding-right: 16px !important;
     }
     
@@ -87,7 +88,7 @@
     display: none;
 }
 .mtn{
-    height: 30px;
+    height: 50px;
     width: 150px;
 }
 .nav-bar{
