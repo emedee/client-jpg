@@ -1,4 +1,7 @@
 @media (max-width: 575.98px) {
+    body{
+        width: 375.2px !important;
+    }
     .ul-nav{
         display: flex;
         flex-direction: column !important;
@@ -61,8 +64,8 @@
         margin-right: auto !important;
     }
     #hamb{
-        display: block;
-        margin-left: 210px !important;
+        display: flex;
+        margin-left: auto !important;
         margin-top: -33px !important;
     }
     .close{
@@ -73,7 +76,7 @@
     
 }
 .hamb{
-    width: 200px;
+    width: 50px;
     height: 50px;
     display: none;
 }
