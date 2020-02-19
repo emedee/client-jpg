@@ -1,6 +1,6 @@
 @media (max-width: 575.98px) {
     body{
-        width: 375.2px !important;
+        width: 375px !important;
     }
     .ul-nav{
         display: flex;
@@ -67,6 +67,7 @@
         display: flex;
         margin-left: auto !important;
         margin-top: -33px !important;
+        padding-right: 16px !important;
     }
     .close{
         margin-left: auto !important;
@@ -76,7 +77,7 @@
     
 }
 .hamb{
-    width: 50px;
+    width: 70px;
     height: 50px;
     display: none;
 }
