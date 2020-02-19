@@ -67,9 +67,10 @@
         margin-right: auto !important;
     }
     #hamb{
-        display: block;
+        display: flex;
         margin-left: auto !important;
         margin-top: -43px !important;
+        /* padding-right: 16px !important; */
     }
     .close{
         margin-left: auto !important;
@@ -95,6 +96,9 @@
 .nav-bar{
     display: flex;
     flex-direction: row;
+}
+#myblocknav{
+    display: block !important;
 }
 li{
     list-style-type: none;
