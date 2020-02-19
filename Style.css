@@ -67,7 +67,7 @@
         margin-right: auto !important;
     }
     #hamb{
-        display: block !important;
+        display: block;
         margin-left: auto !important;
         margin-top: -43px !important;
     }
