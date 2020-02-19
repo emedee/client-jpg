@@ -1,6 +1,6 @@
 @media (max-width: 575.98px) {
     body{
-        width: 370px !important;
+        width: auto !important;
     }
     .ul-nav{
         display: flex;
