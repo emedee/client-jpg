@@ -1,0 +1,149 @@
+@media (max-width: 575.98px) {
+    .ul-nav{
+        display: flex;
+        flex-direction: column !important;
+        text-align: right !important;
+        margin-left: auto !important;
+    }
+    .blockNav{
+        display: none;
+    }
+    .ul-margin{
+        padding: 15px;
+    }
+    #myhdr{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .mtn{
+        padding-left: 30px !important;
+    }
+    .zmarg{
+        margin: 0px !important;
+    }
+    #fdrow{
+        display: flex !important;
+        flex-direction: row !important;
+        margin: 0px !important;
+    }
+    h4{
+        font-size: 14px !important;
+    }
+    button{
+        font-size: 11px !important
+    }
+    h5{
+        font-size: 12px !important;
+    }
+    p{
+        font-size: 10px !important;
+    }
+    .img{
+        margin-top: -60px !important;
+    }
+    .myte{
+        text-align: center !important;
+        margin-bottom: 0px !important;
+        height: 350px !important;
+        width: 300px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    .nomarg{
+        margin:  0px !important;
+    }
+    .nopad{
+        padding: 20px !important;
+        text-align: center !important;
+    }
+    #cntr{
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    #hamb{
+        display: block;
+        margin-left: 210px !important;
+        margin-top: -33px !important;
+    }
+    .close{
+        margin-left: auto !important;
+        margin-top: -25px !important;
+        padding-right: 16px !important;
+    }
+    
+}
+.hamb{
+    width: 200px;
+    height: 50px;
+    display: none;
+}
+.close{
+    width: 50px;
+    height: 30px;
+    display: none;
+}
+.mtn{
+    height: 30px;
+    width: 150px;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+}
+li{
+    list-style-type: none;
+    display: inline;
+    font-family: serif;
+}
+.bold{
+    font-weight: bold
+}
+hr{
+    width: 100% !important;
+}
+.bgdark{
+    height: 100px;
+}
+ul{
+    padding: 0px;
+    margin: 0px;
+}
+.ul-nav{
+    align-self: center !important;
+}
+.small{
+    font-size: 11px;
+}
+.img{
+    width: 170px;
+    height: 170px;
+    border: 1px solid white;
+    margin-top: -30px;
+    border-radius: 5px;
+}
+.imge{
+    width: 270px;
+    height: 200px;
+    border: 1px solid white;
+}
+.fsize{
+    font-size: 12px;
+}
+p, h2{
+    margin: 0px !important;
+}
+.btn-light{
+    background-color: rgba(221, 214, 214, 0.527) !important
+}
+.i{
+    color: white !important;
+}
+.body{
+    background-color: gainsboro;
+}
+.but-class{
+    margin-left: 5px;
+}
+.bradius{
+    border-radius: 5px;
+}
