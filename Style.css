@@ -67,10 +67,9 @@
         margin-right: auto !important;
     }
     #hamb{
-        display: flex;
+        display: block !important;
         margin-left: auto !important;
         margin-top: -43px !important;
-        /* padding-right: 16px !important; */
     }
     .close{
         margin-left: auto !important;
