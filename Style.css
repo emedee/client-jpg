@@ -2,6 +2,9 @@
     body{
         width: auto !important;
     }
+    .imgpde{
+        padding: 0px !important;
+    }
     .ul-nav{
         display: flex;
         flex-direction: column !important;
