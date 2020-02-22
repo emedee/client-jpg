@@ -178,6 +178,47 @@ hr{
     font-size: 36px;
     line-height: 24px;
 }
+.div-lorem{
+    width: 656px;
+    height: 262px;
+    left: 586px;
+    top: 533px;
+    background: #FF3C3C;
+}
+/* .floral{
+    padding-top: 22px;
+    padding-left: 23px;
+} */
+.div-port{
+    padding-top: 31px;
+    padding-left: 36px;
+    padding-right: 27px;
+    width: 716px;
+    /* height: 760px; */
+    left: 553px;
+    top: 445px;
+    margin-right: 0px !important;
+    background: #FFFFFF;
+    border: 0.5px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+.ipsum{
+    width: 192px;
+    height: 22px;
+    left: 609px;
+    top: 592px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.div-floral{
+    padding-top: 22px;
+    padding-left: 23px;
+    padding-right: 0px !important;
+}
 .location{
     width: 138px;
     height: 18px;
@@ -253,16 +294,75 @@ ul{
     line-height: 24px;
     color: #FF3C3C;
 }
-.imge{
-    width: 270px;
-    height: 200px;
-    border: 1px solid white;
+.skillset{
+    width: 366px;
+    height: 375px;
+    background: #FFFFFF;
+    border: 0.5px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 29px 30px
 }
-p, h2{
+.m-topp{
+    margin-top: 19px;
+}
+.lleft{
+    margin-left: 14px;
+}
+.portfolios{
+    width: 97px;
+    height: 18px;
+    left: 589px;
+    top: 476px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #353535;
+    margin-bottom: 22px !important;
+}
+.marge{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 12px;
+    border: none;
+    color: #353535;
+    margin: 6px 7px;
+    padding: 5px 13px;
+    background: rgba(0, 0, 0, 0.06);
+    border-radius: 4px;
+}
+.skills{
+    width: 76px;
+    height: 18px;
+    left: 205px;
+    top: 476px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #353535;
+    margin-bottom: 19px !important;
+}
+p, h2, h4{
     margin: 0px !important;
 }
 .fsize{
-    font-size: 12px;
+    width: 285px;
+    height: 99px;
+    left: 609px;
+    top: 625px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 159.4%;
+    color: #FFFFFF;
+    margin-top: 11px !important;
+    margin-right: 0px !important;
 }
 .btn-light{
     background-color: rgba(221, 214, 214, 0.527) !important
@@ -278,4 +378,30 @@ p, h2{
 }
 .bradius{
     border-radius: 5px;
+}
+.imge{
+    width: 340px;
+    height: 231px;
+    left: 902px;
+    top: 564px;
+    margin-left: 43px !important;
+}
+.btn-selects{
+    left: 586px;
+    top: 805px;
+    background: rgba(0, 0, 0, 0.06);
+    border-radius: 4px;
+    padding: 5px 13px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 12px;
+    color: #353535;
+    border: none;
+}
+.imgpde{
+    padding: 0px !important;
+    text-align: right;
+    margin-top: 31px;
 }
