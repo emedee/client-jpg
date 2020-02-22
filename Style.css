@@ -79,6 +79,11 @@
     }
     
 }
+body{
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
 .hamb{
     width: 50px;
     height: 50px;
@@ -96,6 +101,41 @@
 .nav-bar{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    width: 1440px;
+    height: 74px;
+    background: #FFFFFF;
+    /* box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1); */
+}
+.ourProcess{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14.4px;
+    line-height: 24px;
+    color: #808080;
+    margin-right: 60px;
+}
+.benefits{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14.4px;
+    line-height: 24px;
+    color: #808080;
+    margin-right: 60px;
+}
+.btn-schedule{
+    padding: 10px 20px;
+    color: #FFFFFF;
+    background: #FF3C3C;
+    border-radius: 3px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14.4px;
+    line-height: 18px;
+    border: none;
 }
 #myblocknav{
     display: block !important;
@@ -112,7 +152,67 @@ hr{
     width: 100% !important;
 }
 .bgdark{
-    height: 100px;
+    height: 200px;
+    background: #353535;
+    left: 0%;
+    right: 0%;
+    top: -17.37%;
+    bottom: 93.07%;
+}
+.profile-sect{
+    left: -0.9%;
+    right: -0.97%;
+    top: 6.93%;
+    bottom: 87.22%;
+    background: rgba(255, 255, 255, 0.929);
+    height: 180px;
+}
+.name{
+    width: 287px;
+    height: 24px;
+    left: 425px;
+    top: 260px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 24px;
+}
+.location{
+    width: 138px;
+    height: 18px;
+    left: 425px;
+    margin-top: 9px !important;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #808080;
+}
+.description{
+    width: 366px;
+    height: 18px;
+    left: 425px;
+    margin-top: 12px !important;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FF3C3C;
+}
+.hire{
+    margin-top: 15px;
+}
+.workType{
+    margin-left: auto;
+}
+.loct{
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
 }
 ul{
     padding: 0px;
@@ -125,22 +225,44 @@ ul{
     font-size: 11px;
 }
 .img{
-    width: 170px;
-    height: 170px;
-    border: 1px solid white;
-    margin-top: -30px;
-    border-radius: 5px;
+    margin-top: -70px;
+    width: 215px;
+    height: 215px;
+    left: 170px;
+    top: 172px;
+    border-radius: 10px;
+}
+.wrktype{
+    height: 18px;
+    left: 1133px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #808080;
+}
+.remotely{
+    height: 18px;
+    left: 1141px;
+    margin-top: 5px !important;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FF3C3C;
 }
 .imge{
     width: 270px;
     height: 200px;
     border: 1px solid white;
 }
-.fsize{
-    font-size: 12px;
-}
 p, h2{
     margin: 0px !important;
+}
+.fsize{
+    font-size: 12px;
 }
 .btn-light{
     background-color: rgba(221, 214, 214, 0.527) !important
