@@ -1,83 +1,126 @@
 @media (max-width: 575.98px) {
-    body{
-        width: auto !important;
-    }
-    .imgpde{
-        padding: 0px !important;
-    }
-    /* .ul-nav{
-        display: flex;
-        flex-direction: column !important;
-        text-align: right !important;
-        margin-left: auto !important;
-    } */
-    .blockNav{
-        display: none;
-    }
-    .ul-margin{
-        padding: 15px;
-    }
-    #myhdr{
-        display: flex !important;
-        flex-direction: column !important;
-    }
-    .mtn{
-        padding-left: 10px !important;
-    }
-    .zmarg{
-        margin: 0px !important;
-    }
-    #fdrow{
-        display: flex !important;
-        flex-direction: row !important;
-        margin: 0px !important;
-    }
-    h4{
-        font-size: 14px !important;
-    }
-    button{
-        font-size: 11px !important
-    }
-    h5{
-        font-size: 12px !important;
-    }
-    p{
-        font-size: 10px !important;
-    }
     .img{
-        margin-top: -60px !important;
-    }
-    .myte{
-        text-align: center !important;
-        margin-bottom: 0px !important;
-        height: 350px !important;
-        width: 300px !important;
+        width: auto !important;
+        height: 100% !important;
+        margin-left: 60px !important;
+    }    
+    .profile-sect{
+        height: 300px !important;
         margin-left: auto !important;
         margin-right: auto !important;
     }
-    .nomarg{
-        margin:  0px !important;
+    .loct{
+        margin: -50px 0px 0px 0px !important;
+        text-align: center !important;
     }
-    .nopad{
-        padding: 20px !important;
+    .name{
+        font-size: 28px !important;
+        text-align: center !important;
+        width: auto !important;
+    }
+    .imgcntr{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .description{
+        font-size: 15px !important;
+        text-align: center !important;
+        width: auto !important;
+        margin: 0px !important;
+    }
+    .location{
+        font-size: 12px !important;
+        text-align: center !important;
+        width: auto !important;
+    }
+    .nav-bar{
+        width: auto !important;
+        height: auto !important;
+        align-items: initial !important;
+    }
+    .ul-nav{
+        text-align: right !important;
+        display: flex;
+        flex-direction: column;
+    }
+    .ourProcess, .benefits{
+        font-size: 10px !important;
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+    .p-3{
+        padding: 0px !important;
+    }
+    .btn-schedule{
+        font-size: 10px !important;
+        padding: 5px !important;
+    }
+    .wrktype{
+        font-size: 15px !important;
+        margin-top: 20px !important;
+    }
+    .remotely{
+        font-size: 12px !important;
+    }
+    .skillset, .skills{
+        width: auto !important;
+        text-align: center !important;
+    }
+    .imge{
+        width: 80% !important;
+        height: 100% !important;
+        margin-top: -47px !important;
+        margin-left: 0px !important;
+    }
+    .div-lorem, .ipsum, .portfolios{
+        width: auto !important;
         text-align: center !important;
     }
     #cntr{
-        margin-left: auto !important;
-        margin-right: auto !important;
+        text-align: center !important;
+        width: auto !important;
     }
-    #hamb{
-        display: flex;
-        margin-left: auto !important;
-        margin-top: -43px !important;
-        /* padding-right: 16px !important; */
+    .work-history{
+        width: auto !important;
+        text-align: center !important;
     }
-    .close{
-        margin-left: auto !important;
-        margin-top: -32px !important;
-        padding-right: 16px !important;
+    .date{
+        width: auto !important;
+        text-align: center !important;
+        margin-bottom: 10px !important;
+        margin-top: 5px !important;
     }
-    
+    .digital{
+        width: auto !important;
+        text-align: center !important;
+        margin-top: 15px !important;
+    }
+    .div-floral{
+        padding: 10px !important;
+        text-align: center !important;
+    }
+    .imgpde{
+        margin: 0px !important;
+        text-align: center !important;
+    }
+    .lleft{
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        padding: 0px !important;
+    }
+    .div-port{
+        margin: 0px !important;
+        width: auto !important;
+        text-align: center !important;
+    }
+    .div-case{
+        margin: 0px !important;
+        padding: 5px !important;
+    }
+    .div-marketing{
+        padding: 0px !important;
+    }
+
 }
 body{
     width: auto;
@@ -105,7 +148,6 @@ body{
     width: 1440px;
     height: 74px;
     background: #FFFFFF;
-    /* box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1); */
 }
 .ourProcess{
     font-family: Montserrat;
@@ -185,19 +227,14 @@ hr{
     top: 533px;
     background: #FF3C3C;
 }
-/* .floral{
-    padding-top: 22px;
-    padding-left: 23px;
-} */
 .div-port{
     padding-top: 31px;
     padding-left: 36px;
     padding-right: 27px;
     width: 716px;
-    /* height: 760px; */
     left: 553px;
     top: 445px;
-    margin-right: 0px !important;
+    margin-right: 0px;
     background: #FFFFFF;
     border: 0.5px solid rgba(0, 0, 0, 0.1);
     border-radius: 5px;
@@ -387,7 +424,7 @@ p, h2, h4{
     height: 231px;
     left: 902px;
     top: 564px;
-    margin-left: 43px !important;
+    margin-left: 43px;
 }
 .btn-selects{
     left: 586px;
@@ -440,7 +477,6 @@ li:hover{
     height: 20px;
     left: 669px;
     top: 1331px;
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
@@ -453,7 +489,6 @@ li:hover{
     height: 17px;
     left: 669px;
     top: 1357px;
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
@@ -478,8 +513,6 @@ li:hover{
     width: 131px;
     height: 18px;
     left: 589px;
-    top: 1240px;
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
@@ -494,7 +527,6 @@ li:hover{
     width: 640px;
     left: 589px;
     top: 1755px;
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -508,7 +540,6 @@ li:hover{
     width: 640px;
     left: 589px;
     top: 1755px;
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
