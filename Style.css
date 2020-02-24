@@ -5,7 +5,7 @@
         margin-left: 60px !important;
     }    
     .profile-sect{
-        height: 300px !important;
+        height: auto !important;
         margin-left: auto !important;
         margin-right: auto !important;
     }
@@ -189,6 +189,33 @@ body{
     color: #808080;
     margin-right: 60px;
 }
+.hireMe{
+    padding: 8px 36px;
+    width: 163px;
+    height: 40px;
+    left: 1106px;
+    top: 339px;
+    border: none;
+    background: #FF3C3C;
+    border-radius: 4px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.price{
+    height: 18px;
+    left: 1131px;
+    top: 379px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #808080;
+}
 .btn-schedule{
     padding: 10px 20px;
     color: #FFFFFF;
@@ -229,7 +256,6 @@ hr{
     top: 6.93%;
     bottom: 87.22%;
     background: rgba(255, 255, 255, 0.929);
-    height: 180px;
 }
 .name{
     width: 287px;
@@ -358,7 +384,7 @@ ul{
 }
 .skillset{
     width: 366px;
-    height: 375px;
+    height: 312px;
     background: #FFFFFF;
     border: 0.5px solid rgba(0, 0, 0, 0.1);
     border-radius: 5px;
@@ -369,19 +395,6 @@ ul{
 }
 .lleft{
     margin-left: 14px;
-}
-.portfolios{
-    width: 97px;
-    height: 18px;
-    left: 589px;
-    top: 476px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 24px;
-    color: #353535;
-    margin-bottom: 22px !important;
 }
 .marge{
     font-family: Montserrat;
@@ -395,19 +408,6 @@ ul{
     padding: 5px 13px;
     background: rgba(0, 0, 0, 0.06);
     border-radius: 4px;
-}
-.skills{
-    width: 76px;
-    height: 18px;
-    left: 205px;
-    top: 476px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 24px;
-    color: #353535;
-    margin-bottom: 19px !important;
 }
 p, h2, h4{
     margin: 0px !important;
@@ -532,7 +532,6 @@ li:hover{
     color: rgba(0, 0, 0, 0.67);
 }
 .work-history{
-    width: 131px;
     height: 18px;
     left: 589px;
     font-family: Montserrat;
@@ -540,11 +539,12 @@ li:hover{
     font-weight: 600;
     font-size: 18px;
     line-height: 24px;
-    color: #353535;
+    letter-spacing: 1px;
+    color: #808080;
 }
 .bio{
     padding-right: 13px;
-    margin-top: 17px !important;
+    margin-top: 14px !important;
     margin-bottom: 30px !important;
     width: 640px;
     left: 589px;
@@ -567,7 +567,7 @@ li:hover{
     font-weight: normal;
     font-size: 14px;
     line-height: 26px;
-    letter-spacing: 1.5px;
+    letter-spacing: 0.5px;
     color: #808080;
 }
 .desc{
@@ -586,7 +586,7 @@ li:hover{
     height: 23px;
     left: 589px;
     top: 2027px;
-    letter-spacing: 1.2px;
+    letter-spacing: 0.5px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
@@ -596,5 +596,5 @@ li:hover{
     color: #353535;
 }
 .bottom{
-    margin-bottom: 156px !important;
+    margin-bottom: 43px !important;
 }
